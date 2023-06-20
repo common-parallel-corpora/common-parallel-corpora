@@ -1,19 +1,22 @@
 # Common Parallel Corpora
-Community-curated extention of nllb-seed, flores-200  (ntrex-128 commin soon!)
+High quality community-curated extention of the following datasets:
+- [multitext-nllb-seed](https://github.com/common-parallel-corpora/multitext-nllb-seed) (aligned version of [nllb-seed](https://github.com/facebookresearch/flores/tree/main/nllb_seed))
+- [flores-200](https://github.com/facebookresearch/flores/blob/main/flores200/README.md)  
+- [ntrex-128](https://github.com/MicrosoftTranslator/NTREX) (commin soon!)
 
-|dataset                                                |description|
-|--|--|
-|data/common-parallel-corpora/multitext-nllb-seed       |community extended multitext-nllb-seed|
-|data/common-parallel-corpora/multitext-nllb-seed-edits |translator edits multitext-nllb-seed|
-|--|--|
-|data/common-parallel-corpora/flores-200-dev            |community extended flores-200-dev|
-|data/common-parallel-corpora/flores-200-dev-edits      |translator edits flores-200-dev|
-|--|--|
-|data/common-parallel-corpora/flores-200-devtest        |community extended flores-200-devtest|
-|data/common-parallel-corpora/flores-200-devtest-edits  |translator edits flores-200-devtest|
+|dataset                                                |description|entries|languages|
+|--|--|--|--|
+|data/common-parallel-corpora/multitext-nllb-seed       |community extended multitext-nllb-seed|6193|[41](data/common-parallel-corpora/lang-list-multitext-nllb-seed.md)|
+|data/common-parallel-corpora/multitext-nllb-seed-edits |translator edits multitext-nllb-seed|6193x4|1|
+|--|--|--|--|
+|data/common-parallel-corpora/flores-200-dev            |community extended flores-200-dev|997|[205](data/common-parallel-corpora/lang-list-flores-dev.md)|
+|data/common-parallel-corpora/flores-200-dev-edits      |translator edits flores-200-dev|997x4|1|
+|--|--|--|--|
+|data/common-parallel-corpora/flores-200-devtest        |community extended flores-200-devtest|1012|[205](data/common-parallel-corpora/lang-list-flores-devtest.md)|
+|data/common-parallel-corpora/flores-200-devtest-edits  |translator edits flores-200-devtest|1012x4|1|
 
 
-## 2023 Additions
+## 2023-06-19 Additions
 Baba Mamadi Diané, Solo Farabado Cissé, and Djibrila Diané (all n'ko experts and native speakers) used a novel parallel text curation software to translate nllb-seed, flores-dev and flores-devtest to nqo_Nkoo ([n'ko language](https://en.wikipedia.org/wiki/N%27Ko_language) written in [n'ko script](https://en.wikipedia.org/wiki/N%27Ko_script)).
 
 Each entry was translated (v1) once and verified/edited (v2, v3, v4) two or three times.
@@ -38,6 +41,11 @@ Each entry was translated (v1) once and verified/edited (v2, v3, v4) two or thre
 |     1012 |    27771 | data/common-parallel-corpora/flores-200-devtest-edits/nqo_Nkoo.devtest.v2|
 |     1012 |    29521 | data/common-parallel-corpora/flores-200-devtest-edits/nqo_Nkoo.devtest.v3|
 |     1012 |    29503 | data/common-parallel-corpora/flores-200-devtest-edits/nqo_Nkoo.devtest.v4|
+
+
+
+https://github.com/facebookresearch/flores/blob/main/nllb_seed/README.md
+
 
 ## Contributors
 - Moussa Koulako Bala Doumbouya (Stanford University, FriaSoft)
