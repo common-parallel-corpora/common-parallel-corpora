@@ -1,21 +1,29 @@
-# Common Parallel Corpora
-High quality community-curated extention of the following datasets:
-- [multitext-nllb-seed](https://github.com/common-parallel-corpora/multitext-nllb-seed) (aligned version of [nllb-seed](https://github.com/facebookresearch/flores/tree/main/nllb_seed))
-- [flores-200](https://github.com/facebookresearch/flores/blob/main/flores200/README.md)  
-- [ntrex-128](https://github.com/MicrosoftTranslator/NTREX) (commin soon!)
+# Common Parallel Corpora 
+<a href="https://en.wikipedia.org/wiki/South-up_map_orientation"><img src="img/world_map.jpg" width="200px"/></a>
+
+
+A high-quality community-driven extension of  [multitext-nllb-seed](https://github.com/common-parallel-corpora/multitext-nllb-seed), [flores-200](https://github.com/facebookresearch/flores/blob/main/flores200/README.md), and [ntrex-128](https://github.com/MicrosoftTranslator/NTREX) to more languages.
+
+
+|release|description|
+|--|--|
+| [common-parallel-corpora-2023-06-19.zip](https://github.com/common-parallel-corpora/common-parallel-corpora/archive/refs/tags/2023-06-19.zip)|(multitext-nllb-seed, flores-200) + nqo_Nkoo|
+|in progress|ntrex-128 + nqo_Nkoo|
+|planning|(multitext-nllb-seed, flores-200, ntrex-128) + ful_Adlm|
+
 
 
 ## Description of Corpora
 |dataset                                                |description|entries|languages|
 |--|--|--|--|
-|data/common-parallel-corpora/multitext-nllb-seed       |community extended multitext-nllb-seed|6193|[41](data/common-parallel-corpora/lang-list-multitext-nllb-seed.md)|
-|data/common-parallel-corpora/multitext-nllb-seed-edits |translator edits multitext-nllb-seed|6193x4|1|
+|cpc/multitext-nllb-seed       |extended multitext-nllb-seed|6193|[41](data/common-parallel-corpora/lang-list-multitext-nllb-seed.md)|
+|cpc/multitext-nllb-seed-edits |translator edits multitext-nllb-seed|6193x4|1|
 |--|--|--|--|
-|data/common-parallel-corpora/flores-200-dev            |community extended flores-200-dev|997|[205](data/common-parallel-corpora/lang-list-flores-200-dev.md)|
-|data/common-parallel-corpora/flores-200-dev-edits      |translator edits flores-200-dev|997x4|1|
+|cpc/flores-200-dev            |extended flores-200-dev|997|[205](data/common-parallel-corpora/lang-list-flores-200-dev.md)|
+|cpc/flores-200-dev-edits      |translator edits flores-200-dev|997x4|1|
 |--|--|--|--|
-|data/common-parallel-corpora/flores-200-devtest        |community extended flores-200-devtest|1012|[205](data/common-parallel-corpora/lang-list-flores-200-devtest.md)|
-|data/common-parallel-corpora/flores-200-devtest-edits  |translator edits flores-200-devtest|1012x4|1|
+|cpc/flores-200-devtest        |extended flores-200-devtest|1012|[205](data/common-parallel-corpora/lang-list-flores-200-devtest.md)|
+|cpc/flores-200-devtest-edits  |translator edits flores-200-devtest|1012x4|1|
 
 
 ## 2023-06-19: WMT 2023 N'ko NMT Task details
@@ -81,21 +89,7 @@ The authors would like to acknowledge the following sources of support:
 - Stanford Graduate Fellowship (SGF, P. Michael Farmwald)
 - Stanford NLP Group
 
-<table>
-  <tr>
-    <td>
-      N'ko ߒߞߏ USA
-    </td>
-    <td>
-      FriaSoft
-    </td>
-    <td>
-      Meta Platforms, Inc.
-    </td>
-    <td>
-      Stanford University
-    </td>
-  </tr>
+<table style="text-align: center;">
   <tr>
     <td>
       <img src='img/nko.png' height='100px' />
@@ -108,6 +102,20 @@ The authors would like to acknowledge the following sources of support:
     </td>
     <td>
       <img src='img/stanford.png' height='100px' />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      N'ko ߒߞߏ USA
+    </td>
+    <td>
+      FriaSoft
+    </td>
+    <td>
+      Meta Platforms, Inc.
+    </td>
+    <td>
+      Stanford University
     </td>
   </tr>
 </table>
