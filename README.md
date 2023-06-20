@@ -4,6 +4,8 @@ High quality community-curated extention of the following datasets:
 - [flores-200](https://github.com/facebookresearch/flores/blob/main/flores200/README.md)  
 - [ntrex-128](https://github.com/MicrosoftTranslator/NTREX) (commin soon!)
 
+
+## Description of Corpora
 |dataset                                                |description|entries|languages|
 |--|--|--|--|
 |data/common-parallel-corpora/multitext-nllb-seed       |community extended multitext-nllb-seed|6193|[41](data/common-parallel-corpora/lang-list-multitext-nllb-seed.md)|
@@ -16,7 +18,16 @@ High quality community-curated extention of the following datasets:
 |data/common-parallel-corpora/flores-200-devtest-edits  |translator edits flores-200-devtest|1012x4|1|
 
 
-## 2023-06-19 Additions
+## 2023-06-19: WMT 2023 N'ko NMT Task details
+- train sets:
+  - [nicolingua-0005-nqo-nmt-resources](https://github.com/mdoumbouya/nicolingua-0005-nqo-nmt-resources)
+  - common-parallel-corpora/multitext-nllb-seed
+- dev set:
+  - common-parallel-corpora/flores-200-dev
+- test set:
+  - common-parallel-corpora/flores-200-devtest
+
+## 2023-06-19: Data Release
 Baba Mamadi Diané, Solo Farabado Cissé, and Djibrila Diané (all n'ko experts and native speakers) used a novel parallel text curation software to translate nllb-seed, flores-dev and flores-devtest to nqo_Nkoo ([n'ko language](https://en.wikipedia.org/wiki/N%27Ko_language) written in [n'ko script](https://en.wikipedia.org/wiki/N%27Ko_script)).
 
 Each entry was translated (v1) once and verified/edited (v2, v3, v4) two or three times.
@@ -42,9 +53,6 @@ Each entry was translated (v1) once and verified/edited (v2, v3, v4) two or thre
 |     1012 |    29521 | data/common-parallel-corpora/flores-200-devtest-edits/nqo_Nkoo.devtest.v3|
 |     1012 |    29503 | data/common-parallel-corpora/flores-200-devtest-edits/nqo_Nkoo.devtest.v4|
 
-
-
-https://github.com/facebookresearch/flores/blob/main/nllb_seed/README.md
 
 
 ## Contributors
