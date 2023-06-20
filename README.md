@@ -11,10 +11,10 @@ High quality community-curated extention of the following datasets:
 |data/common-parallel-corpora/multitext-nllb-seed       |community extended multitext-nllb-seed|6193|[41](data/common-parallel-corpora/lang-list-multitext-nllb-seed.md)|
 |data/common-parallel-corpora/multitext-nllb-seed-edits |translator edits multitext-nllb-seed|6193x4|1|
 |--|--|--|--|
-|data/common-parallel-corpora/flores-200-dev            |community extended flores-200-dev|997|[205](data/common-parallel-corpora/lang-list-flores-dev.md)|
+|data/common-parallel-corpora/flores-200-dev            |community extended flores-200-dev|997|[205](data/common-parallel-corpora/lang-list-flores-200-dev.md)|
 |data/common-parallel-corpora/flores-200-dev-edits      |translator edits flores-200-dev|997x4|1|
 |--|--|--|--|
-|data/common-parallel-corpora/flores-200-devtest        |community extended flores-200-devtest|1012|[205](data/common-parallel-corpora/lang-list-flores-devtest.md)|
+|data/common-parallel-corpora/flores-200-devtest        |community extended flores-200-devtest|1012|[205](data/common-parallel-corpora/lang-list-flores-200-devtest.md)|
 |data/common-parallel-corpora/flores-200-devtest-edits  |translator edits flores-200-devtest|1012x4|1|
 
 
