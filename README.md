@@ -19,13 +19,20 @@ High quality community-curated extention of the following datasets:
 
 
 ## 2023-06-19: WMT 2023 N'ko NMT Task details
-- train sets:
-  - [nicolingua-0005-nqo-nmt-resources](https://github.com/mdoumbouya/nicolingua-0005-nqo-nmt-resources)
+- datasets: [common-parallel-corpora](https://github.com/common-parallel-corpora/common-parallel-corpora) and  [nicolingua-0005-nqo-nmt](https://github.com/mdoumbouya/nicolingua-0005-nqo-nmt-resources)
+  - [common-parallel-corpora-2023-06-19.zip](https://github.com/common-parallel-corpora/common-parallel-corpora/archive/refs/tags/2023-06-19.zip)
+  - [nicolingua-0005-nqo-nmt-resources-2023-06-19.zip](https://github.com/mdoumbouya/nicolingua-0005-nqo-nmt-resources/archive/refs/tags/2023-06-19.zip)
+
+
+- train subsets (collectively cover [41 languages](https://github.com/common-parallel-corpora/common-parallel-corpora/blob/master/data/common-parallel-corpora/lang-list-multitext-nllb-seed.md) including nqo_Nkoo)
+  - nicolingua-0005-nqo-nmt-resources
   - common-parallel-corpora/multitext-nllb-seed
-- dev set:
+- dev subset:
   - common-parallel-corpora/flores-200-dev
-- test set:
+- test subset:
   - common-parallel-corpora/flores-200-devtest
+- focus directions:
+  - (lang -> nqo_Nkoo) and (nqo_Nkoo -> lang) for [all other 204 languages in common-parallel-corpora/flores-200](https://github.com/common-parallel-corpora/common-parallel-corpora/blob/master/data/common-parallel-corpora/lang-list-flores-200-dev.md)
 
 ## 2023-06-19: Data Release
 Baba Mamadi Diané, Solo Farabado Cissé, and Djibrila Diané (all n'ko experts and native speakers) used a novel parallel text curation software to translate nllb-seed, flores-dev and flores-devtest to nqo_Nkoo ([n'ko language](https://en.wikipedia.org/wiki/N%27Ko_language) written in [n'ko script](https://en.wikipedia.org/wiki/N%27Ko_script)).
