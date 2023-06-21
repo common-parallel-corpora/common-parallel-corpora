@@ -1,5 +1,21 @@
 # Common Parallel Corpora 
-<a href="https://en.wikipedia.org/wiki/South-up_map_orientation"><img src="img/world_map.jpg" width="200px"/></a>
+<table>
+  <tr>
+    <td>
+      <a href="https://earth.google.com/web/@17.97510473,23.20955016,1277.73921486a,17456651.00395203d,35y,179.4070755h,0t,0r">
+        <img src="img/earth.jpg" height="200px"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://en.wikipedia.org/wiki/South-up_map_orientation">
+        <img src="img/world_map.jpg" height="200px"/>
+      </a>
+    </td>
+  </tr>
+</table>
+<div style="text-align: center">
+
+</div>
 
 
 A high-quality community-driven extension of  [multitext-nllb-seed](https://github.com/common-parallel-corpora/multitext-nllb-seed), [flores-200](https://github.com/facebookresearch/flores/blob/main/flores200/README.md), and [ntrex-128](https://github.com/MicrosoftTranslator/NTREX) to more languages.
@@ -27,25 +43,25 @@ A high-quality community-driven extension of  [multitext-nllb-seed](https://gith
 
 
 ## 2023-06-19: WMT 2023 N'ko NMT Task details
-- datasets: [common-parallel-corpora](https://github.com/common-parallel-corpora/common-parallel-corpora) and  [nicolingua-0005-nqo-nmt](https://github.com/mdoumbouya/nicolingua-0005-nqo-nmt-resources)
+- datasets:
   - [common-parallel-corpora-2023-06-19.zip](https://github.com/common-parallel-corpora/common-parallel-corpora/archive/refs/tags/2023-06-19.zip)
   - [nicolingua-0005-nqo-nmt-resources-2023-06-19.zip](https://github.com/mdoumbouya/nicolingua-0005-nqo-nmt-resources/archive/refs/tags/2023-06-19.zip)
 
 
-- train subsets (collectively cover [41 languages](https://github.com/common-parallel-corpora/common-parallel-corpora/blob/master/data/common-parallel-corpora/lang-list-multitext-nllb-seed.md) including nqo_Nkoo)
-  - nicolingua-0005-nqo-nmt-resources
-  - common-parallel-corpora/multitext-nllb-seed
+- train subsets (collectively cover 42 languages)
+  - nicolingua-0005-nqo-nmt-resources ([3 languages](https://github.com/mdoumbouya/nicolingua-0005-nqo-nmt-resources))
+  - common-parallel-corpora/multitext-nllb-seed ([41 languages](https://github.com/common-parallel-corpora/common-parallel-corpora/blob/master/data/common-parallel-corpora/lang-list-multitext-nllb-seed.md))
 - dev subset:
-  - common-parallel-corpora/flores-200-dev
+  - common-parallel-corpora/flores-200-dev (205 languages)
 - test subset:
-  - common-parallel-corpora/flores-200-devtest
+  - common-parallel-corpora/flores-200-devtest (205 languages)
 - focus directions:
   - (lang -> nqo_Nkoo) and (nqo_Nkoo -> lang) for [all other 204 languages in common-parallel-corpora/flores-200](https://github.com/common-parallel-corpora/common-parallel-corpora/blob/master/data/common-parallel-corpora/lang-list-flores-200-dev.md)
 
 ## 2023-06-19: Data Release
-Baba Mamadi Diané, Solo Farabado Cissé, and Djibrila Diané (all n'ko experts and native speakers) used a novel parallel text curation software to translate nllb-seed, flores-dev and flores-devtest to nqo_Nkoo ([n'ko language](https://en.wikipedia.org/wiki/N%27Ko_language) written in [n'ko script](https://en.wikipedia.org/wiki/N%27Ko_script)).
+Baba Mamadi Diané, Solo Farabado Cissé, and Djibrila Diané (all n'ko experts and native speakers) used a novel parallel text curation software to translate nllb-seed, flores-dev and flores-devtest to nqo_Nkoo ([ߒߞߏ (n'ko) language](https://en.wikipedia.org/wiki/N%27Ko_language) written in [ߒߞߏ (n'ko) script](https://en.wikipedia.org/wiki/N%27Ko_script)).
 
-Each entry was translated (v1) once and verified/edited (v2, v3, v4) two or three times.
+Each entry was translated once (v1) and verified/edited two or three times (v2, v3, v4).
 
 
 |lines|words|path|
