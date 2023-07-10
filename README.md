@@ -1,23 +1,15 @@
 # Common Parallel Corpora 
-<table>
-  <tr>
-    <td>
-      <a href="https://earth.google.com/web/@17.97510473,23.20955016,1277.73921486a,17456651.00395203d,35y,179.4070755h,0t,0r">
-        <img src="img/earth.jpg" height="200px"/>
-      </a>
-    </td>
-    <td>
-      <a href="https://en.wikipedia.org/wiki/South-up_map_orientation">
-        <img src="img/world_map.jpg" height="200px"/>
-      </a>
-    </td>
-  </tr>
-</table>
-<div style="text-align: center">
-
-</div>
+<img src="img/world_map_equal_area.jpg">
 
 
+
+<!--
+<xsmall>^^This is a <a href="https://en.wikipedia.org/wiki/South-up_map_orientation">south-up oriented</a>
+<a href="https://en.wikipedia.org/wiki/Equal-area_projection">equal-area projected map</a>
+of <a href="https://earth.google.com/web/@17.97510473,23.20955016,1277.73921486a,17456651.00395203d,35y,179.4070755h,0t,0r">earth</a></xsmall>
+-->
+
+        
 A high-quality community-driven extension of  [multitext-nllb-seed](https://github.com/common-parallel-corpora/multitext-nllb-seed), [flores-200](https://github.com/facebookresearch/flores/blob/main/flores200/README.md), and [ntrex-128](https://github.com/MicrosoftTranslator/NTREX) to more languages.
 
 
