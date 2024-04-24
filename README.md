@@ -34,7 +34,7 @@ A high-quality community-driven extension of  [multitext-nllb-seed](https://gith
 |cpc/flores-200-devtest-edits  |translator edits flores-200-devtest|1012x4|1|
 
 
-## 2023-06-19: WMT 2023 N'ko NMT Task details
+## 2023-06-19: WMT 2023 Nko NMT Task details
 - datasets:
   - [common-parallel-corpora-2023-06-19.zip](https://github.com/common-parallel-corpora/common-parallel-corpora/archive/refs/tags/2023-06-19.zip)
   - [nicolingua-0005-nqo-nmt-resources-2023-06-19.zip](https://github.com/mdoumbouya/nicolingua-0005-nqo-nmt-resources/archive/refs/tags/2023-06-19.zip)
@@ -51,7 +51,7 @@ A high-quality community-driven extension of  [multitext-nllb-seed](https://gith
   - (lang -> nqo_Nkoo) and (nqo_Nkoo -> lang) for [all other 204 languages in common-parallel-corpora/flores-200](https://github.com/common-parallel-corpora/common-parallel-corpora/blob/master/data/common-parallel-corpora/lang-list-flores-200-dev.md)
 
 ## 2023-06-19: Data Release
-Baba Mamadi Diané, Solo Farabado Cissé, and Djibrila Diané (all n'ko experts and native speakers) used a novel parallel text curation software to translate nllb-seed, flores-dev and flores-devtest to nqo_Nkoo ([ߒߞߏ (n'ko) language](https://en.wikipedia.org/wiki/N%27Ko_language) written in [ߒߞߏ (n'ko) script](https://en.wikipedia.org/wiki/N%27Ko_script)).
+Baba Mamadi Diané, Solo Farabado Cissé, and Djibrila Diané (all Nko experts and native speakers) used a novel parallel text curation software to translate nllb-seed, flores-dev and flores-devtest to nqo_Nkoo ([ߒߞߏ (Nko) language](https://en.wikipedia.org/wiki/N%27Ko_language) written in [ߒߞߏ (Nko) script](https://en.wikipedia.org/wiki/N%27Ko_script)).
 
 Each entry was translated once (v1) and verified/edited two or three times (v2, v3, v4).
 
@@ -80,9 +80,9 @@ Each entry was translated once (v1) and verified/edited two or three times (v2, 
 
 ## Contributors
 - Moussa Koulako Bala Doumbouya (Stanford University, FriaSoft)
-- Baba Mamadi Diané (N'ko USA Inc.)
-- Solo Farabado Cissé (N'ko USA Inc.)
-- Djibrila Diané (N'ko USA Inc.)
+- Baba Mamadi Diané (Nko USA Inc.)
+- Solo Farabado Cissé (Nko USA Inc.)
+- Djibrila Diané (Nko USA Inc.)
 - Abdoulaye Sow (FriaSoft)
 - Séré Moussa Doumbouya (FriaSoft)
 - Daouda Bangoura (FriaSoft)
@@ -92,7 +92,7 @@ Each entry was translated once (v1) and verified/edited two or three times (v2, 
 ## Ackowledgement
 The authors would like to acknowledge the following sources of support:
 - Unrestricted Research Gift from Meta Platforms, Inc. to NKO USA Inc.
-- N'ko USA Inc.
+- Nko USA Inc.
 - FriaSoft
 - Stanford Graduate Fellowship (SGF, P. Michael Farmwald)
 - Stanford NLP Group
@@ -114,7 +114,7 @@ The authors would like to acknowledge the following sources of support:
   </tr>
   <tr>
     <td>
-      N'ko ߒߞߏ USA
+      Nko ߒߞߏ USA
     </td>
     <td>
       FriaSoft
